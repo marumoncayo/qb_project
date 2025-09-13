@@ -169,6 +169,7 @@ El almacenamiento en PostgreSQL debe ser suficiente para los volúmenes esperado
 Finalmente, los permisos en la base de datos deben permitir a Mage insertar, actualizar y leer registros en el esquema raw. Problemas de permisos pueden manifestarse como errores de NOT NULL o permission denied. 
 
 CHECKLIST DE ACEPTACION 
+```
 si-Mage y Postgres se comunican por nombre de servicio.
 si-Todos los secretos (QBO y Postgres) están en Mage Secrets; no hay secretos en el
 repo/entorno expuesto.
